@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mQuiz.css">
+</head>
+<body>
+    <div class="startDiv" id="startDiv">
+    <button class="startButton" id="startButton" onclick="startTest()">START</button>
+        <h2>This quiz contains 6 questions. For each correct answer you will receive 1 point.
+            You will have 15minutes to finish the test. Answering incorrectly doesn't take away any points.
+        Good Luck
+        </h2>
+    </div>
+    <div class="quiz" id="quiz">
+        <h1>Quiz App</h1>
+        <div class="question">
+            <p id="question" class="question">Question Number 1</p>
+            <p id="trackQuestions">Question 1</p>
+            <div id="timer">15:00</div>
+        </div>
+        <div id="answers">
+            <button class="answer" onclick="selectAnswer(event)">Answer 1</button>
+            <button class="answer" onclick="selectAnswer(event)">Answer 2</button>
+            <button class="answer" onclick="selectAnswer(event)">Answer 3</button>
+            <button class="answer" onclick="selectAnswer(event)">Answer 4</button>
+        </div>
+        <div class="UI-buttons">
+        <button id="back" class="UI-button" onclick="prevButton()">Back</button>
+        <button id="end" class="UI-button" onclick="endQuiz()">End</button>
+        <button id="next" class="UI-button" onclick="nextButton(event)">Next</button>
+        </div>
+    </div>
+    <script src="mQuiz.js"></script>
+
+</body>
+</html>

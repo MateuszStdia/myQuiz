@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which land animal is the fastest ?",
+        "answers": ["Cheetah", "Lion", "Cat", "Mouse"],
+        "correctAnswer": "Cheetah"
+    },
+    {
+        "question": "Which animal is the biggest?",
+        "answers": ["Blue whale", "Lion", "Elephant", "Ant"],
+        "correctAnswer": "Blue whale"
+    },
+    {
+        "question": "What's the tallest mountain in the world ?",
+        "answers": ["Mount Everest", "K2", "Mount Wycheproof", "Lhotse"],
+        "correctAnswer": "Mount Everest"
+    },
+    {
+        "question": "What kind of pet did Harry Potter have ?",
+        "answers": ["Owl", "Dog", "Cat", "Horse"],
+        "correctAnswer": "Owl"
+    },
+    {
+        "question": "How many bones does a shark have?",
+        "answers": ["0", "232", "118", "167"],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "What's my name ?",
+        "answers": ["Mateusz", "Frank", "Patrick", "Mark"],
+        "correctAnswer": "Mateusz"
+    }
+]
